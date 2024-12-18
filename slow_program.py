@@ -1,7 +1,5 @@
 from decimal import *
-from memory_profiler import profile
 
-@profile
 def exp(x):
     getcontext().prec += 2
     i, lasts, s, fact, num = 0, 0, 1, 1, 1
